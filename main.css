@@ -20,7 +20,11 @@ body{
 	margin: 0px 10px 10px 15px; 
 	padding: 30px 30px 30px 30px;
 	border: thick black solid;
-	visibility: hidden;
+	
+
+	
+
+
 	
 	
 	  
@@ -39,6 +43,16 @@ footer{
 	background: rgba(229,225,225,1.00)
 
 }
-
+.right a:link {color:black;
+	font-size: 17px;
+	text-decoration: none;
+}
+.right a:hover {
+	font-size: 1.2em
+}
+footer a:link{
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
 
 
