@@ -95,6 +95,9 @@ footer {
   text-align: center;
   padding: 10px 0;
   margin-top: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100;
 }
 
 /* Audio Player Styling */
@@ -112,7 +115,7 @@ audio {
 
   article {
     width: 100%; /* Make the boxes take full width */
-    margin-bottom: 10px; /* Add space between stacked boxes */
+    margin-bottom: 20px; /* Add space between stacked boxes */
   }
 
   header ul {
@@ -129,4 +132,10 @@ audio {
   article img {
     max-width: 100%;
   }
+}
+@media (max-width:768){
+	.hero{
+		padding:50px 10px;
+		font-size:0.9em;
+	}
 }
